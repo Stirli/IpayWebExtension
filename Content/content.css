@@ -1,0 +1,56 @@
+﻿.page-content > *:first-child {
+    padding-top: 70px !important;
+}
+
+#table_add tr.setn:hover td {
+    color: #ff0 !important;
+}
+
+td:last-child i {
+    margin-right: 3px !important;
+}
+
+form#form_modal > * {
+    display: inline-block !important;
+    vertical-align: top !important;
+}
+
+.popup_footer > * {
+    display: block !important;
+}
+
+.popup.popupIpay {
+    width: auto !important;
+}
+
+.content.myinput > * {
+    width: 160px !important;
+    padding: 10px !important;
+    margin: 4px !important;
+}
+
+.content.myinput > label {
+    font-weight: 700 !important;
+}
+
+.popup.popupIpay.popupLarge {
+    width: auto !important;
+}
+
+#menu_name {
+    margin: 5px 0 0 15px !important;
+}
+
+.popup_footer.editPupilPopupFooter *[class*=button] {
+    width: 100% !important;
+    margin: 0px 0px 6px 0px !important;
+}
+
+
+li ul > li, #table_add tr td {
+    transition: all 0.2s linear !important;
+}
+
+li ul > li:hover, #table_add tr:hover td {
+    background: #11c263 !important;
+}

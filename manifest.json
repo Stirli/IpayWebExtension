@@ -1,0 +1,56 @@
+﻿{
+  "manifest_version": 2,
+  "name": "Неофициальное расширение для кшп.бел",
+  "version": "4.06",
+  "description": "Расширение улучшает опыт использования сайта кшп.бел.",
+  "icons": {
+    "128": "images/icon.png"
+  },
+  "background": {
+    "scripts": [
+      "lib/jquery.js",
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "page_action": {
+    "default_icon": "images/icon.png",
+    "default_title": "Ipay food extension"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://ipay.znaj.by/school/!iGate2?html=index&lang=ru"
+      ],
+      "run_at": "document_idle",
+      "css": [
+        "Content/content.css",
+        "Content/components/infoPanel/infoPanel.css",
+        "Content/components/addBox/addBox.css"
+      ],
+      "js": [
+        "lib/jquery.js",
+        "Content/ext/arrays.js",
+        "Content/models/CookieOptions.js",
+        "Content/models/Cookie.js",
+        "Content/Infrastructure/ChromeStorageValue.js",
+        "Content/models/Menu.js",
+        "Content/models/DataContext.js",
+        "Content/Infrastructure/Keyboard.js",
+        "Content/contentScript.js"
+      ]
+    }
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "web_accessible_resources": [
+    "Content/*"
+  ],
+  "permissions": [
+    "storage",
+    "declarativeContent",
+    "cookies",
+    "downloads",
+    "clipboardRead",
+    "tts"
+  ]
+}

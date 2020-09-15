@@ -1,0 +1,26 @@
+﻿<div>
+    <b>(<span id="className"></span>) Порции:</b>
+</div>
+<div>
+    <p><b>Завтрак</b></p>
+    <p id="result1"/>
+</div>
+<div>
+    <p><b>Обед</b></p>
+    <p id="result2"/>
+</div>
+<div>
+    <p><b>Полдник</b></p>
+    <p id="result3"/>
+</div>
+<div class="mods">
+    <b>Режимы Alt:</b>
+</div>
+<div class="tog-btn">
+    <div class="button-design-01 button-xs" onclick="toggleParent($('.tog-btn'))">Toggle</div>
+</div>
+<script>
+    function toggleParent(e) {
+        e.parent().toggleClass("slim");
+    }
+</script>

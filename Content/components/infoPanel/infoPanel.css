@@ -1,0 +1,34 @@
+﻿#complexSelector input[type='radio'], #cmode input[type='radio'] {
+    opacity: 100 !important;
+    position: initial !important;
+}
+
+#additionBox {
+    position: fixed !important;
+    top: 6% !important;
+    background: white !important;
+    right: 0 !important;
+    z-index: 999 !important;
+    border: 1px solid !important;
+    overflow-x: auto !important;
+}
+
+#additionBox.slim {
+    height: 70px !important;
+    overflow-y: auto !important;
+}
+
+#additionBox input {
+    margin: 0 3px 0px 16px !important;
+}
+
+#additionBox > div {
+    vertical-align: text-top;
+    display: inline-block;
+    margin: 2px;
+    padding: 2px;
+}
+
+#className {
+    color: red !important;
+}
