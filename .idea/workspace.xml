@@ -1,11 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/dev-last" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6b37c3c-7bfe-41fb-8f7f-e2476f86b7f3" name="Default Changelist" comment="" />
+    <list default="true" id="a6b37c3c-7bfe-41fb-8f7f-e2476f86b7f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/components/infoPanel/InfoPanelModule.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/components/infoPanel/InfoPanelViewModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/js/content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Popup/css/popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Popup/js/popup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/popup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/!Output/DEBUG/ipayUserScript.user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AddonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AddonProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Infrastructure/ChromeStorageValue.js" beforeDir="false" afterPath="$PROJECT_DIR$/DataProviders/ChromeStorageValue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Infrastructure/Keyboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/components/addBox/addBox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/components/addBox/addBox.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/css/content.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/contentScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ext/arrays.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/models/Cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/models/CookieOptions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/models/DataContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/models/Menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/Background/js/background.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/chrome.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-amd-helpers/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-amd-helpers/knockout-amd-helpers-tests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-amd-helpers/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-amd-helpers/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-postbox/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-postbox/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-postbox/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-secure-binding/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-secure-binding/knockout-secure-binding-tests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-secure-binding/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-secure-binding/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-transformations/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-transformations/knockout-transformations-tests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-transformations/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-transformations/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.deferred.updates/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.deferred.updates/knockout.deferred.updates-tests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.deferred.updates/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.deferred.updates/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.editables/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.editables/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.editables/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.es5/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.es5/knockout.es5-tests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.es5/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.es5/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.kogrid/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.kogrid/knockout.kogrid-tests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.kogrid/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.kogrid/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.mapper/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.mapper/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.mapper/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.mapping/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.mapping/knockout.mapping-tests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.mapping/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.mapping/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.projections/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.projections/knockout.projections-tests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.projections/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.projections/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.punches/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.punches/knockout.punches-tests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.punches/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.punches/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.rx/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.rx/knockout.rx-tests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.rx/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.rx/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.validation/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.validation/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.validation/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.viewmodel/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.viewmodel/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.viewmodel/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout/test/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout/test/readonly.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout/test/templatingBehaviors.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/viewmodels/PopupViewModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
@@ -14,6 +141,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1hHEgh12sr9R7tL8kMgwr1I9PDf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,10 +150,50 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.18.4" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.64" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Content" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Git\AddonProject\Content\css" />
+      <recent name="E:\Git\AddonProject" />
+      <recent name="E:\Git\AddonProject\Background\js" />
+      <recent name="E:\Git\AddonProject\Output" />
+      <recent name="E:\Git\AddonProject\Background" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Git\AddonProject\Content" />
+      <recent name="E:\Git\AddonProject\Output\Content" />
+      <recent name="E:\Git\AddonProject\Output" />
+      <recent name="E:\Git\AddonProject\Output\Popup" />
+      <recent name="E:\Git\AddonProject" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -41,17 +209,85 @@
       <workItem from="1599660275392" duration="5000" />
       <workItem from="1599722013340" duration="33000" />
       <workItem from="1600151948936" duration="443000" />
+      <workItem from="1601989602662" duration="3781000" />
+      <workItem from="1602059186125" duration="10617000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/dev-last" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="setup workspace and realised minimal addon" />
+    <MESSAGE value="&quot;setup workspace and realised minimal addon&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;setup workspace and realised minimal addon&quot;" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="164" key="SettingsEditor" timestamp="1600152088500">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602080185439">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1280.54.1280.984/1920.305.1024.728@0.0.1920.1040" timestamp="1602080185439" />
+    <state x="740" y="260" key="FileChooserDialogImpl" timestamp="1601994650430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="260" key="FileChooserDialogImpl/0.0.1920.1040/-1280.54.1280.984/1920.305.1024.728@0.0.1920.1040" timestamp="1601994650430" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1602080723358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.54.1280.984/1920.305.1024.728@0.0.1920.1040" timestamp="1602080723358" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1602080723358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.54.1280.984/1920.305.1024.728@0.0.1920.1040" timestamp="1602080723358" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1602080723358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.54.1280.984/1920.305.1024.728@0.0.1920.1040" timestamp="1602080723358" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1602080723358">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.54.1280.984/1920.305.1024.728@0.0.1920.1040" timestamp="1602080723358" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1602060513260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1280.54.1280.984/1920.305.1024.728@0.0.1920.1040" timestamp="1602060513260" />
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.310.1024.768/-1280.54.1280.1024@0.0.1920.1040" timestamp="1600152088500" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/copyfiles/index.js</url>
+          <line>1</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

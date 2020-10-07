@@ -1,21 +1,22 @@
 ﻿{
   "manifest_version": 2,
-  "name": "Неофициальное расширение для кшп.бел",
-  "version": "4.06",
+  "name": "Неофициальное расширение для кшп.бел beta 5",
+  "version": "5",
   "description": "Расширение улучшает опыт использования сайта кшп.бел.",
   "icons": {
     "128": "images/icon.png"
   },
   "background": {
     "scripts": [
-      "lib/jquery.js",
+      "lib/jquery.min.js",
       "background.js"
     ],
     "persistent": false
   },
   "page_action": {
     "default_icon": "images/icon.png",
-    "default_title": "Ipay food extension"
+    "default_title": "Ipay food extension",
+    "default_popup": "popup.html"
   },
   "content_scripts": [
     {
@@ -24,26 +25,18 @@
       ],
       "run_at": "document_idle",
       "css": [
-        "Content/content.css",
-        "Content/components/infoPanel/infoPanel.css",
-        "Content/components/addBox/addBox.css"
+        "Content/css/content.css"
       ],
       "js": [
-        "lib/jquery.js",
-        "Content/ext/arrays.js",
-        "Content/models/CookieOptions.js",
-        "Content/models/Cookie.js",
-        "Content/Infrastructure/ChromeStorageValue.js",
-        "Content/models/Menu.js",
-        "Content/models/DataContext.js",
-        "Content/Infrastructure/Keyboard.js",
-        "Content/contentScript.js"
+        "lib/jquery.min.js",
+        "content.js"
       ]
     }
   ],
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
   "web_accessible_resources": [
-    "Content/*"
+    "Content/components/infoPanel/infoPanel.html",
+    "Content/components/infoPanel/infoPanel.css"
   ],
   "permissions": [
     "storage",
@@ -51,6 +44,7 @@
     "cookies",
     "downloads",
     "clipboardRead",
-    "tts"
+    "tts",
+    "tabs"
   ]
 }
