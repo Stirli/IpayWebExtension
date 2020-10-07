@@ -19,107 +19,15 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/dev-last" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:dev-last" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6b37c3c-7bfe-41fb-8f7f-e2476f86b7f3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/components/infoPanel/InfoPanelModule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/components/infoPanel/InfoPanelViewModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/js/content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Popup/css/popup.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Popup/js/popup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/popup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/!Output/DEBUG/ipayUserScript.user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/AddonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AddonProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Infrastructure/ChromeStorageValue.js" beforeDir="false" afterPath="$PROJECT_DIR$/DataProviders/ChromeStorageValue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Infrastructure/Keyboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/components/addBox/addBox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/components/addBox/addBox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/css/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/contentScript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ext/arrays.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/models/Cookie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/models/CookieOptions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/models/DataContext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/models/Menu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/background.js" beforeDir="false" afterPath="$PROJECT_DIR$/Background/js/background.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/chrome.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-amd-helpers/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-amd-helpers/knockout-amd-helpers-tests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-amd-helpers/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-amd-helpers/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-postbox/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-postbox/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-postbox/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-secure-binding/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-secure-binding/knockout-secure-binding-tests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-secure-binding/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-secure-binding/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-transformations/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-transformations/knockout-transformations-tests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-transformations/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout-transformations/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.deferred.updates/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.deferred.updates/knockout.deferred.updates-tests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.deferred.updates/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.deferred.updates/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.editables/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.editables/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.editables/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.es5/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.es5/knockout.es5-tests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.es5/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.es5/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.kogrid/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.kogrid/knockout.kogrid-tests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.kogrid/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.kogrid/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.mapper/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.mapper/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.mapper/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.mapping/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.mapping/knockout.mapping-tests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.mapping/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.mapping/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.projections/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.projections/knockout.projections-tests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.projections/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.projections/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.punches/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.punches/knockout.punches-tests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.punches/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.punches/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.rx/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.rx/knockout.rx-tests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.rx/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.rx/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.validation/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.validation/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.validation/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.viewmodel/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.viewmodel/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout.viewmodel/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout/test/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout/test/readonly.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout/test/templatingBehaviors.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/knockout/knockout/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/viewmodels/PopupViewModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/popup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
