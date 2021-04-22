@@ -2,13 +2,15 @@ import { Document } from "./Document.mjs";
 
 class DataSet {
 	name;
+	dataContext;
 
-	constructor(name) {
+	constructor(name, dataContext) {
 		if (name === undefined) {
 			throw `Undefined name for DataSet`;
 		}
 
 		this.name = name;
+		this.dataContext = dataContext;
 	}
 
 	/**

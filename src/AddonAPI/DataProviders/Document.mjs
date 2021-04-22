@@ -34,4 +34,5 @@ class Document {
 		return Document.objectToString(this, 0);
 	}
 }
+
 export { Document };
