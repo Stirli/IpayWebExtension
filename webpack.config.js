@@ -1,4 +1,5 @@
 var path = require('path');
+var srcPath = "./src/";
 var config = {
     mode: "development",
     // TODO: Add common Configuration
@@ -6,7 +7,7 @@ var config = {
         rules: [
             {
                 test: /\.m?js$/,
-                exclude: /(node_modules|bower_components)/,
+                exclude: /(node_modules|bower_components|Output|.git)/,
                 use: {
                     loader: "babel-loader"
                 }
@@ -16,7 +17,7 @@ var config = {
 };
 var contentConfig = Object.assign({}, config, {
     name: "content",
-    entry: './Content/js/content.js',
+    entry: srcPath+'Content/js/content.js',
     output: {
         filename: 'content.js',
         path: path.resolve(__dirname, 'Output')
@@ -24,7 +25,7 @@ var contentConfig = Object.assign({}, config, {
 });
 var popupConfig = Object.assign({}, config, {
     name: "popup",
-    entry: './Popup/js/popup.js',
+    entry: srcPath+'Popup/js/popup.js',
     output: {
         filename: 'popup.js',
         path: path.resolve(__dirname, 'Output')
@@ -32,7 +33,7 @@ var popupConfig = Object.assign({}, config, {
 });
 var backgrConfig = Object.assign({}, config, {
     name: "background",
-    entry: './Background/js/background.js',
+    entry: srcPath+'Background/js/background.js',
     output: {
         filename: 'background.js',
         path: path.resolve(__dirname, 'Output')
