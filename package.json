@@ -2,11 +2,13 @@
   "scripts": {
     "clean": "cf Output",
     "build": "cf Output && copyfiles images/** Output && copyfiles -f node_modules/jquery/dist/jquery.min.js Output/lib && copyfiles -u 1 src/manifest.json src/popup.html src/Popup/** src/Content/** src/Background/** Output -e \"**/*.js\" && webpack -p",
+    "buildw": "cf Output && copyfiles images/** Output && copyfiles -f node_modules/jquery/dist/jquery.min.js Output/lib && copyfiles -u 1 src/manifest.json src/popup.html src/Popup/** src/Content/** src/Background/** Output -e \"**/*.js\" && webpack --watch",
     "watch": "webpack --watch"
   },
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@types/chrome": "^0.0.136",
     "babel-loader": "^8.1.0",
     "clear-folder": "^2.0.0",
     "copyfiles": "^2.4.0",
@@ -27,7 +29,6 @@
     ]
   },
   "dependencies": {
-    "@types/chrome": "^0.0.135",
     "npm-check-updates": "^11.4.1"
   }
 }

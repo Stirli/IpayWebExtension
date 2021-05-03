@@ -1,4 +1,4 @@
-import { Document } from "./Document.mjs";
+import { Document } from "./Document";
 
 class DataSet {
 	name;
@@ -15,14 +15,14 @@ class DataSet {
 
 	/**
 	 * Inserts one or many documents
-	 * @param document document to insert
+	 * @param {Document} document document to insert
 	 * @param {Function} callback function (result : bool) : void
 	 */
 	insert(document, callback) {}
 
 	/**
 	 * Finds Documents in data set
-	 * @param document template to find
+	 * @param {Document} document template to find
 	 * @param {Function} callback function (documents : Array) : void
 	 */
 	find(document, callback) {}

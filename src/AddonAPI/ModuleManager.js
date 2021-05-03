@@ -1,34 +1,35 @@
 import { PageContext } from "./PageContext";
-import { ModuleManager } from "./Module";
+import { Module } from "./Module";
+import { DataContext } from "./DataProviders/DataContext";
 
 class ModuleManager {
-	/**
-	 * @type {Array}
-	 */
+	/** @type {Array} */
 	#modules;
-	/**
-	 * @type {PageContext}
-	 */
+	/** @type {PageContext} */
 	#pageContext;
-	constructor() {
+	/** @type {DataContext} */
+	#dataContext;
+	constructor(dataContext) {
 		this.#modules = [];
+		this.#dataContext = dataContext;
 	}
 
 	start() {
 		this.#pageContext = new PageContext();
-		this.#modules.forEach((module) => {
-			module.onStart(this.#pageContext);
-		});
+		for (let [, module] of Object.entries(this.#modules)) {
+			module.onStart(this.#pageContext, this.#dataContext);
+		}
 	}
 
 	registerModule(ModuleType) {
 		//TODO check object already exists
-		if (this.#modules[ModuleType] !== undefined)
+		if (this.#modules[ModuleType.name] !== undefined) {
 			console.error(`${ModuleType} is already registered. Skipping...`);
-		else this.#modules[ModuleType] = new ModuleType(new Chrome());
+		} else {
+			this.#modules[ModuleType.name] = new ModuleType();
+		}
+		console.log("modules:", this.#modules);
 	}
 }
 
-let moduleManager = new ModuleManager();
-
-export { moduleManager };
+export { ModuleManager };
